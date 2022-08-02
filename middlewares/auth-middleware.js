@@ -23,7 +23,7 @@ var checkUserAuth = async (req, res, next) => {
   }
   if (!token) {
     res.status(401).send({ "status": "failed", "message": "Unauthorized User, No Token" })
-  }
+  }//
 }
 
 export default checkUserAuth
