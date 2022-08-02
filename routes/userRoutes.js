@@ -10,6 +10,7 @@ router.use('/loggeduser', checkUserAuth)
 
 
 // Public Routes
+//
 router.post('/register', UserController.userRegistration)
 
 router.post('/login', UserController.userLogin)
